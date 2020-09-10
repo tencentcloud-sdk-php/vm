@@ -1,0 +1,23 @@
+{
+    "name": "tencentcloud/vm",
+    "description": "TencentCloudApi php sdk vm",
+    "type": "library",
+    "homepage": "https://github.com/tencentcloud-sdk-php/vm",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tencentcloudapi",
+            "email": "tencentcloudapi@tencent.com",
+            "homepage": "https://github.com/tencentcloud-sdk-php/vm",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "tencentcloud/common": "3.0.248"
+    },
+    "autoload": {
+        "psr-4": {
+            "TencentCloud\\": "./src/TencentCloud"
+        }
+    }
+}
